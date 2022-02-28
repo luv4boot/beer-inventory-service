@@ -24,10 +24,11 @@ public class BeerInvntoryBootstrap implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        if(beerInventoryRepository.count() == 0){
+        if (beerInventoryRepository.count() == 0) {
             loadInitialInv();
         }
     }
+
 
     private void loadInitialInv() {
         beerInventoryRepository.save(BeerInventory
@@ -53,4 +54,6 @@ public class BeerInvntoryBootstrap implements CommandLineRunner {
 
         log.debug("Loaded Inventory. Record count: " + beerInventoryRepository.count());
     }
+
+
 }
