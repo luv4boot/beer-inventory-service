@@ -1,4 +1,4 @@
-package com.luv4code.beerinventoryservice.web.model;
+package com.lfc.model;
 
 import lombok.*;
 

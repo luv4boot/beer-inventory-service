@@ -2,7 +2,7 @@ package com.luv4code.beerinventoryservice.web.controller;
 
 import com.luv4code.beerinventoryservice.repositories.BeerInventoryRepository;
 import com.luv4code.beerinventoryservice.web.mappers.BeerInventoryMapper;
-import com.luv4code.beerinventoryservice.web.model.BeerInventoryDto;
+import com.lfc.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
